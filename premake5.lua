@@ -3,14 +3,14 @@ require "scripts/project"
 require "scripts/platform"
 require "vendor/dependencies"
 
-workspace "template"
+workspace "degenerate-bases-v2"
     architecture "x64"
     configurations {
         "Debug",
         "Release"
     }
 
-    startproject "turnip-editor"
+    startproject "degenerate-bases-v2"
 
     flags {
 		"MultiProcessorCompile"
@@ -21,4 +21,4 @@ binaries_path       = "%{wks.location}/build/bin/" .. "%{output_path}"
 intermediate_path   = "%{wks.location}/build/intermediate/" .. "%{output_path}"
 vendor_path         = "%{wks.location}/vendor/"
 
-include "template/build.lua"
+include "degenerate-bases-v2/build.lua"
