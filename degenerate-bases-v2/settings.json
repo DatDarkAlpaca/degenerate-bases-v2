@@ -1,0 +1,16 @@
+{
+    "Chunk": {
+        "chunk-size": "AUTO"
+    },
+    "Fasta": {
+        "header-character": ">",
+        "header-template": "seq",
+        "results-prefix": "Result_",
+        "results-format": "fas",
+        "results-directory": "./results/"
+    },
+    "Debug": {
+        "debug-enable": false,
+        "generate-report": false
+    }
+}

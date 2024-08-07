@@ -1,11 +1,8 @@
 vendor_include_dirs = { }
-vendor_include_dirs["example_vendor"]             = "%{vendor_path}/example_vendor/include"
+vendor_include_dirs["nlohmann"]         = "%{vendor_path}/json/single_include"
 
 vendor_links = {}
-vendor_links[0] = "example_vendor"
-
 vendor_defines = {}
-vendor_defines[0] = "EXAMPLE_DEFINE"
 
 function set_vendor_include_dirs()
     for vendor_names, vendor_paths in pairs(vendor_include_dirs) do

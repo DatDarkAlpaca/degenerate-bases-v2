@@ -14,4 +14,6 @@
 	#include <mutex>
 	#include <future>
 	#include <chrono>
+
+	#include <nlohmann/json.hpp>
 #pragma warning(pop)

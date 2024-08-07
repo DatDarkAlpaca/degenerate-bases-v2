@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{2EB4837C-1AEB-840D-C3D7-6A10AFED000F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Encoding">
+      <UniqueIdentifier>{047CF17A-703C-6DB1-3977-B62EA5F6B18D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Information">
+      <UniqueIdentifier>{63FA5B56-4FF3-7AA8-7825-602D647D5AB4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Input">
+      <UniqueIdentifier>{AD4E7BCD-9906-BD1A-020E-9676EEE4570B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Permutator">
+      <UniqueIdentifier>{70B5A377-DC40-113C-E551-9430515C6D3C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Settings">
+      <UniqueIdentifier>{F63FCA8A-E20C-2596-0B26-133EF7515A24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{F68B420E-62A0-6ABF-2B22-0E1F97F566F0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Core\Base.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\Encoding\Encoding.hpp">
+      <Filter>Core\Encoding</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\Information\Information.hpp">
+      <Filter>Core\Information</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\Input\Input.hpp">
+      <Filter>Core\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\Permutator\Permutator.hpp">
+      <Filter>Core\Permutator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\Sequence.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Settings\ChunkData.hpp">
+      <Filter>Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Settings\DebugData.hpp">
+      <Filter>Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Settings\FastaData.hpp">
+      <Filter>Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Settings\SettingsData.hpp">
+      <Filter>Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Settings\SettingsParser.hpp">
+      <Filter>Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Settings\SettingsParserJSON.hpp">
+      <Filter>Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Settings\SettingsSystem.hpp">
+      <Filter>Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Utils\FileJSON.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pch.h" />
+    <ClInclude Include="src\Fasta\FastaWriter.hpp" />
+    <ClInclude Include="src\Utils\Files.hpp" />
+    <ClInclude Include="src\Fasta\FastaReader.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Core\Encoding\Encoding.cpp">
+      <Filter>Core\Encoding</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Information\Information.cpp">
+      <Filter>Core\Information</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Input\Input.cpp">
+      <Filter>Core\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Permutator\Permutator.cpp">
+      <Filter>Core\Permutator</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Main.cpp" />
+    <ClCompile Include="src\pch.cpp" />
+  </ItemGroup>
+</Project>

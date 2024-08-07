@@ -11,10 +11,10 @@ function create_project(project_name, project_kind)
         pchsource "src/pch.cpp"
 
         files {
-            "src/*.cpp",
-            "src/*.hpp",
-            "src/*.c",
-            "src/*.h",
+            "src/**.cpp",
+            "src/**.hpp",
+            "src/**.c",
+            "src/**.h",
         }
     
         includedirs {
@@ -35,5 +35,8 @@ function create_project(project_name, project_kind)
         filter { }
 
 		-- Platform 
-		detect_platform()		
+		detect_platform()
+
+		-- Vendors
+		setup_vendors()
 end
